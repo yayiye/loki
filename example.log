@@ -1,0 +1,6 @@
+train20241020-165918    std=0.2  ACTOR_LR = 1e-4  CRITIC_LR = 1e-3  GAMMA = 0.98  大模型    package_group_list/10.0     梯度爆炸
+train20241021-021638    std=0.2  ACTOR_LR = 1e-5  CRITIC_LR = 1e-4  GAMMA = 0.95  大模型    package_group_list/10.0     梯度爆炸
+train20241021-022539    std=0.2  ACTOR_LR = 1e-5  CRITIC_LR = 1e-4  GAMMA = 0.95  大模型    奖励函数去掉了package_group_list     收敛
+train20241021-061302    std=0.2  ACTOR_LR = 1e-5  CRITIC_LR = 1e-4  GAMMA = 0.95  大模型    奖励函数只有接受比特率
+train20241021-061501    std=0.2  ACTOR_LR = 1e-4  CRITIC_LR = 1e-3  GAMMA = 0.95  大模型    奖励函数只有接受比特率 
+train20241021-061811    std=0.5  ACTOR_LR = 1e-4  CRITIC_LR = 1e-3  GAMMA = 0.95  大模型    奖励函数只有接受比特率 
